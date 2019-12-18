@@ -7,10 +7,6 @@
     <script src="https://aframe.io/releases/1.0.0/aframe.min.js"></script>
     <script>
       AFRAME.registerComponent('change-color-on-hover', {
-        schema: {
-          color: {default: '#ECECEC'}
-        },
-    
         init: function () {
           var data = this.data;
           var el = this.el;
@@ -25,7 +21,7 @@
           });
 
           el.addEventListener('mousedown', function () {
-            location.href = '/';
+            location.href = 'https://qvtec.github.io/aframe-qvtec/';
           });
         }
       });
@@ -47,7 +43,7 @@
           });
 
           el.addEventListener('mousedown', function () {
-            location.href = '/';
+            location.href = 'https://qvtec.github.io/aframe-qvtec/';
           });
         }
       });
